@@ -1,0 +1,48 @@
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-color-dark: rgb(17, 86, 102);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em; 
+}
+
+.game{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    margin:0;
+    height: 70vh;
+    
+}
+
+
+.game button {
+     width: 100px;
+     height: 100px;
+     max-width: 100px;
+     max-height:100px ;
+}
+
+hr {
+    width: 200px;
+    margin-right: 79% ;
+    margin-top: -20px;
+}
+
+h1{
+    text-align: center;
+}
